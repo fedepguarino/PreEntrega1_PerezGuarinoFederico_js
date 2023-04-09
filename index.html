@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>JavaScript</title>
+</head>
+
+
+<body>
+    <div>
+        <h1>Pre entrega Num 1</h1>
+        <h2>Sistema para arrojar turnos a los usuarios que ingresen a la página web</h2>
+        <h3>A traves del ingreso de datos de los usuarios, se imprimira tanto en consola como en pantalla el respectivo turno a cada uno hasta cubrir los 5 turnos posibles</h3>
+    </div>
+
+    <div class="flex">
+        <div class="box">
+            <button id="desarrolloWeb" onclick="mostrarDesarrolloWeb()">Curso de desarrollo Web</button>
+            <div id="infoDesarrolloWeb" style="display:none">
+                <h2>Podemos definir el Desarrollo Web como el proceso de creación de un sitio web, una aplicación o un software. Se debe hacer un estudio para determinar las necesidades del cliente y a partir de ahí poner en marcha una interfaz atractiva e incorporar funcionalidades para el usuario final.</h2>
+                <img src="./img/desarrolloWeb.jpg" alt="imagen de desarrolloWeb" >
+                <p>Valor del curso: $6000</p>
+            </div>
+
+        </div>
+
+        <div class="box">
+            <button id="javaScript"  onclick="mostrarJavaScript()">Curso de JavaScript</button>
+            <div id="infoJavaScript" style="display:none">
+                <h2>JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web.</h2>
+                <img src="./img/JavaScript.jpg" alt="imagen de JavaScript" >
+                <p>Valor del curso: $10000</p>
+            </div>
+        </div>        
+    </div>
+    <button id="botonCalcular" onclick="calcular()">Calcular</button>
+    
+    <script src="miarchivo.js"></script>
+</body>
+
+
+</html>
